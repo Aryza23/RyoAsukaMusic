@@ -215,7 +215,7 @@ async def start_comm(client, message: Message, _):
                 f"{message.from_user.mention} has just started Bot.\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
             )
 
-
+"""
 @app.on_message(
     filters.command(get_command("START_COMMAND"))
     & filters.group
@@ -231,7 +231,7 @@ async def testbot(client, message: Message, _):
         ),
         reply_markup=InlineKeyboardMarkup(out),
     )
-
+"""
 
 welcome_group = 2
 
