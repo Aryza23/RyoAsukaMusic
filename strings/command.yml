@@ -12,6 +12,7 @@
 
 # Bot Commands
 PING_COMMAND : ["ping"]
+START_COMMAND01 : ["start"]
 START_COMMAND : ["mstart"]
 HELP_COMMAND : ["mhelp"]
 SETTINGS_COMMAND : ["settings", "setting"]
