@@ -181,6 +181,7 @@ async def start_comm(client, message: Message, _):
                     config.LOG_GROUP_ID,
                     f"{message.from_user.mention} has just started bot to check <code>VIDEO INFORMATION</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
                 )
+"""
     else:
         try:
             await app.resolve_peer(OWNER_ID[0])
@@ -215,7 +216,6 @@ async def start_comm(client, message: Message, _):
                 f"{message.from_user.mention} has just started Bot.\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
             )
 
-"""
 @app.on_message(
     filters.command(get_command("START_COMMAND"))
     & filters.group
